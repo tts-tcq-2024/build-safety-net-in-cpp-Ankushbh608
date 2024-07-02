@@ -87,7 +87,7 @@ TEST(SoundexTest, HandlesHyphensAndSpaces) {
     EXPECT_EQ(generateSoundex("Virat Kohli"), "V632");
 }
 
-// Test that handles names with non-alphabetic characters
+// Test cases for the names with non-alphabetic characters
 TEST(SoundexTest, HandlesNonAlphabeticCharacters) {
     EXPECT_EQ(generateSoundex("R'Sharma"), "R265");
     EXPECT_EQ(generateSoundex("M@630Satellite"), "M234");
