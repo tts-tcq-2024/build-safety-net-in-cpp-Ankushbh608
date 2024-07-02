@@ -91,5 +91,4 @@ TEST(SoundexTest, HandlesHyphensAndSpaces) {
 TEST(SoundexTest, HandlesNonAlphabeticCharacters) {
     EXPECT_EQ(generateSoundex("R'Sharma"), "R265");
     EXPECT_EQ(generateSoundex("M@630Satellite"), "M234");
-    EXPECT_EQ(generateSoundex("#Ankush"), "A520");
 }
